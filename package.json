@@ -1,4 +1,11 @@
 {
+  "name": "deploy-chatbot",
+  "description": "",
+  "version": "0.1.0",
+  "dependencies": {},
+  "scripts": {
+    "deploy": "serverless deploy"
+  },
   "devDependencies": {
     "serverless-python-requirements": "^5.4.0"
   }

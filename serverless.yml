@@ -8,6 +8,13 @@ provider:
   name: aws
   runtime: python3.8
 
+package:
+  individually: false
+  exclude:
+    - package.json
+    - package-log.json
+    - node_modules/**
+
 functions:
   hello:
     handler: handler.hello
